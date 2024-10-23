@@ -29,9 +29,9 @@
                     <td>{{ $post->title }}</td>
                     <td>{{ $post->content }}</td>
                     <td>{{ $post->author }}</td>
-                    <td>
-                        <a href="/post/{{ $post->id }}" class="btn btn-primary">Edit</a>
-                        <form action="/post/{{ $post->id }}" method="post">
+                    <td class="d-flex justify-content-between">
+                        <a href="/post/{{ $post->id }}" class="btn btn-primary me-2">Edit</a>
+                        <form action="/post/{{ $post->id }}" method="post" class="d-inline">
                             @method('delete')
                             @csrf
                             <button type="submit" class="btn btn-danger">Delete</button>
