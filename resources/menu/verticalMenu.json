@@ -1,0 +1,16 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "pages-home"
+    },
+    {
+      "url": "/post",
+      "name": "Posting",
+      "icon": "menu-icon tf-icons ti ti-article",
+      "slug": "pages-post"
+    }
+  ]
+}
